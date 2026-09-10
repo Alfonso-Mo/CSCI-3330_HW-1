@@ -58,6 +58,7 @@ body{
 
 .inputTitles{
     padding-right: 10px;
+    font-size: 15px;
 }
 
 .inputBox{
@@ -68,4 +69,47 @@ body{
     box-shadow: 4px 5px 10px 0px ;
 }
 
+.radioButtons{
+    padding: 30px;
+}
+
+.feedbackBox{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.checkboxEmails{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.submitButton{
+    border-radius: 6px;
+    padding: 5px;
+    width: 200px;
+    background-color: lightslategray;
+}
+
+.receiptBox{
+    padding: 20px;
+}
+
+.receipt{
+    width: 280px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+}
 
